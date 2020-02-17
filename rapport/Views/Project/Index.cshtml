@@ -1,0 +1,15 @@
+﻿@model List<Project>
+    
+
+    @{
+
+        ViewData["Title"] = "Projektsuche";
+    }
+
+    <h1>Tagesraport - Projektsuche</h1>
+
+    @foreach(var project in Model)
+    {
+        <span>@project.ProjectName</span>   
+        <hr />
+    }
