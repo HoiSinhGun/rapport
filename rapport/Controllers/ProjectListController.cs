@@ -31,7 +31,7 @@ namespace rapport.Controllers
                 project.ProjectName = "Beton auf Rattenreste prüfen";
                 project.Responsible = "Thich Quan Duc";
                 project.Order = "169";
-                project.Customer = "Bird Corp";
+                project.Customer = "Bird Corp2";
                 projectList.Add(project);
             }
             return View("/Views/Project/Index.cshtml",projectList);
